@@ -1,0 +1,70 @@
+###
+GET http://127.0.0.1:8000/api/products?search=Student2
+Accept: application/json
+Content-Type: application/json
+
+###
+GET http://127.0.0.1:8000/api/posts?search=learn
+Accept: application/json
+Content-Type: application/json
+
+### Cash out
+GET http://127.0.0.1:8000/api/articles?search=test
+Accept: application/json
+Content-Type: application/json
+
+{
+    "amount" : 100,
+    "bank_id" : 1
+}
+### Cash out
+GET  http://127.0.0.1:8000/api/articles
+Accept: application/json
+Content-Type: application/json
+
+### Cash out
+GET  http://127.0.0.1:8000/api/product/35/show
+Accept: application/json
+Content-Type: application/json
+
+### Cash out
+POST http://127.0.0.1:8000/api/product/add
+Accept: application/json
+Content-Type: application/json
+
+{
+        "code":"35",
+        "name":"laptop",
+        "price":"120"
+
+}
+### Cash out
+POST http://127.0.0.1:8000/api/products
+Accept: application/json
+Content-Type: application/json
+
+### Cash out
+GET http://127.0.0.1:8000/api/tags?test=d
+Accept: application/json
+Content-Type: application/json
+
+### Cash out
+POST  http://127.0.0.1:8000/api/tag
+Accept: application/json
+Content-Type: application/json
+
+### Cash out
+GET  http://127.0.0.1:8000/api/users
+Accept: application/json
+Content-Type: application/json
+
+### Cash out
+GET  http://127.0.0.1:8000/api/category?search=book
+Accept: application/json
+Content-Type: application/json
+
+### Cash out
+POST   http://127.0.0.1:8000/api/category
+Accept: application/json
+Content-Type: application/json
+
